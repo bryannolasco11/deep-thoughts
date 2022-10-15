@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ThoughtList = ({ thoughts, title }) => {
-    console.log(thoughts)
-    console.log(title)
+  console.log(thoughts)
+  console.log(title)
   if (!thoughts.length) {
     return <h3>No Thoughts Yet</h3>;
   }
